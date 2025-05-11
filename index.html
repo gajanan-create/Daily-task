@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Task Planner + Positive Vibes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <nav class="navbar">
+      <div class="nav-brand">Daily Task Planner</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#documentation" id="documentation-link">Documentation</a></li>
+      </ul>
+    </nav>
+    <h1>Daily Task Planner <span>🌈</span></h1>
+    <div class="task-input">
+      <input type="text" id="taskInput" placeholder="Add a new task...">
+      <button id="addTaskBtn">➕ Add Task</button>
+    </div>
+    <ul id="taskList"></ul>
+    <div id="quoteToast" class="toast"></div>
+    <div class="completed-tasks">
+      <h2>Completed Tasks</h2>
+      <ul id="completedTaskList"></ul>
+    </div>
+    <div class="social-share">
+      <h3>Share Your Tasks</h3>
+      <a href="https://twitter.com/intent/tweet?text=Check out my tasks on Daily Task Planner!" target="_blank">Share on Twitter</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:8000" target="_blank">Share on Facebook</a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:8000&title=Daily Task Planner" target="_blank">Share on LinkedIn</a>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html> 
